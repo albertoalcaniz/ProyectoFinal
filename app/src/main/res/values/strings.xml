@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">FullCart</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="logo">logo</string>
+    <string name="search_title">Buscar Titulo</string>
+    <string name="has_olvidado_la_contrase_a">¿Has olvidado la contraseña?</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="correo_electr_nico">Correo Electrónico</string>
+    <string name="registrar">Registrar</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="añadir">añadir</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve"
+            translatable="false">AIzaSyAj-Y2Hp4AyTSx-TW4wlei03XukAmS24kA
+    </string>
+    <string name="actualizar">Actualizar</string>
+    <string name="search_hint">Nombre Restaurante</string>
+    <string name="title_activity_lista_compra">ListaCompra</string>
+    <string name="lista_compra">Lista de la Compra</string>
+    <string name="chapuzas">Chapuzas</string>
+    <string name="comer">Hoy no como en casa</string>
+    <string name="limpieza">Limpieza</string>
+    <string name="cine">Me Apetece Cine</string>
+    <string name="producto">Producto</string>
+    <string name="marca">Marca</string>
+    <string name="ok">Añadir</string>
+    <string name="cancelar">cancelar</string>
+    <string name="tipo">Tipo</string>
+
+    <string-array name="standard">
+        <item>Ave</item>
+        <item>Carne</item>
+        <item>Drogueria</item>
+        <item>Verdura y fruta</item>
+        <item>Lacteos</item>
+        <item>Pescado</item>
+    </string-array>
+    <string name="title_activity_super_market_maps">Map</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="correoelectronico">Correo Eléctronico</string>
+    <string name="title_activity_mapa_super">MapaSUPER</string>
+    <string name="supermercados">Supermercados</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="a_adir">Añadir</string>
+
+    <string name="fullcart">FullCart</string>
+
+
+</resources>

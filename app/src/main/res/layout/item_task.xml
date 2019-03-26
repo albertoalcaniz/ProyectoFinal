@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/card_view"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="6dp" android:background="@color/fondoApp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:background="@color/fondoApp">
+
+        <ImageView
+                android:id="@+id/imageP"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@mipmap/ic_launcher" android:contentDescription="@string/todo"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginEnd="10dp">
+
+            <TextView
+                    android:text="@string/producto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView1"
+                    android:fontFamily="@font/futurah" android:textAlignment="center"/>
+            <TextView
+                    android:id="@+id/nameProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text=""
+                    android:fontFamily="@font/futurah"
+                    android:textColor="@android:color/white"/>
+            <TextView
+                    android:text="@string/marca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/futurah"
+                    android:id="@+id/textView2" android:textAlignment="center"/>
+
+            <TextView
+                    android:id="@+id/marcaProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text=""
+                    android:fontFamily="@font/futurah"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                          android:orientation="horizontal" android:gravity="center">
+                <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/btn_actualizar" android:background="@drawable/editar"
+                        android:layout_marginEnd="30dp" android:contentDescription="@string/todo"/>
+                <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/btn_borrar" android:background="@drawable/borrar"
+                        android:layout_marginStart="30dp" android:clickable="false" android:contentDescription="@string/todo"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
