@@ -45,7 +45,7 @@ class SupermercadoServices(private var API_KEY: String?) {
     urlString.append("&type=supermarket")
     urlString.append("&query=supermarket")
     urlString.append("&sensor=true")
-        urlString.append("&key=AIzaSyAj-Y2Hp4AyTSx-TW4wlei03XukAmS24kA")
+        urlString.append("&key=YOUR_API_KEY")
 
         return urlString.toString()
     }
